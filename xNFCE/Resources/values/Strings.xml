@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">xNFCE</string>
+
+
+	<!-- Strings for buttons -->
+	<string name="btnEncrypt">Encrypt a file</string>
+	<string name="btnDecrypt">Decrypt a file</string>
+	<string name="btnParent">Parent directory</string>
+	<string name="btnGo">Go</string>
+
+
+	<!-- Strings for labels -->
+	<string name="lblFile">File to encrypt</string>
+
+	<!-- Strings for radio buttons -->
+	<string name="rdioDES">DES</string>
+	<string name="rdioAES">AES</string>
+</resources>

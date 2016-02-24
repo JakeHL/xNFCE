@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <TextView
+        android:text="Encrypted file:"
+        android:textSize="@dimen/defaultFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:text="/"
+        android:textSize="@dimen/defaultFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/decryptFilePath"
+        android:editable="false" />
+    <CheckBox
+        android:text="Use password?"
+        android:textSize="@dimen/defaultFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/decryptUsePassword"
+        android:checked="false" />
+    <EditText
+        android:password="true"
+        android:textSize="@dimen/defaultFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/decryptPassword"
+        android:enabled="false" />
+    <Button
+        android:text="Go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/decryptBtnGo"
+        android:enabled="false" />
+</LinearLayout>
