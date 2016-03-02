@@ -7,4 +7,4 @@ Drag a text based document *(.txt, .html, .xml, .xaml etc.)* that contains hexac
 
 To export the extracted colours, click on the export icon in the top right of the application. This will save a text file with a list of all hex colours in the application.
 
-To clear the list, simly hit the clear list icon.
+To clear the list, simply hit the clear list icon.
