@@ -17,7 +17,7 @@ namespace xNFCE
 
 			// Get our buttons from the layout resource
 			Button btnToEncrypt = FindViewById<Button> (Resource.Id.btnToEncrypt);
-			Button btnToDecrypt = FindViewById<Button>(Resource.Id.btnToDecrypt);
+			Button btnToDecrypt = FindViewById<Button> (Resource.Id.btnToDecrypt);
 
 			// Subscribe the buttons click to a method
 			btnToEncrypt.Click += goToEncrypt;
