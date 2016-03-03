@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -51,7 +51,7 @@
     <Compile Include="Model\FileListItem.cs" />
     <Compile Include="Adapters\FilePickerAdapter.cs" />
     <Compile Include="EncryptFileActivity.cs" />
-    <Compile Include="EncryptionModel\Crypto.cs" />
+    <Compile Include="Model\EncryptionModel\Crypto.cs" />
     <Compile Include="GlobalValues.cs" />
     <Compile Include="DecryptFileActivity.cs" />
   </ItemGroup>
@@ -91,11 +91,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\layout\DecryptFile.axml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-    <Folder Include="Model\" />
-    <Folder Include="Adapters\" />
-    <Folder Include="EncryptionModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
